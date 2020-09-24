@@ -1,0 +1,396 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href='style.css' rel='stylesheet'>
+    <meta name="description" content="Après plus de 10 ans de gestion de projets en communication et marketing, Marie Lepers a décidé de se former au développement Web. Ainsi, elle met aujourd'hui son expérience professionnelle dans la communication et son expertise technique, au service de vos projets.">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='style.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Marie Lepers - Développeur Web</title>
+    
+  </head>
+
+
+  <body>
+    <!--HEADER-->
+    
+    <div class="header">
+        <h3>Marie Lepers</h3>
+        <p>___________________</p>
+        <h5><span id="banner-typed-text"></span></h5>
+    </div>
+
+    <script>
+        var typed = new Typed('#banner-typed-text', {
+        strings: ["Développeur Web"],
+        typeSpeed: 90,
+        });
+      </script>
+    
+    <!--NAVBAR-->
+    <div class="navbar-profile">
+    <div class="menu-button">MENU</div>
+        <ul class="profile-list">
+            <li>
+                <a href="#profile" class="link-without-style" ><i class="far fa-user mr-1"></i> Profile</a>
+            </li>
+    
+    
+            <li>
+                <a href="#technologies" class="link-without-style" ><i class="fas fa-cog mr-1"></i> Technologies</a>
+            </li>
+    
+            <li>
+                <a href="#competences" class="link-without-style" ><i class="fas fa-rainbow mr-1"></i>Compétences</a>
+            </li>
+            <li>
+                <a href="#formations" class="link-without-style" ><i class="fas fa-user-graduate mr-1"></i> Formations</a>
+            </li>
+            <li>
+                <a href="#exp pro" class="link-without-style" > <i class="fas fa-briefcase mr-1"></i> Expériences professionnelles</a>
+            </li>
+            <li>
+                <a href="#actiextrpro" class="link-without-style"><i class="fas fa-heart mr-1"></i>Activités extra-professionnelles</a>
+            </li>
+            <li>
+                <a href="#contact" class="link-without-style" ><i class="far fa-envelope mr-1"></i></i>Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--Affichage du menu en version mobile-->
+    <script>
+        const menu = document.querySelector('.menu-button');
+        const menuList = document.querySelector('.profile-list');
+        if (menu) {
+            addEventListener("click", (event) => {
+                menuList.classList.toggle("display-menu-list");        
+            });
+        };
+    </script>
+
+
+    <div class="profile-container">
+        <div class="card-profile" >
+            <h6>PROFILE</h6>
+            <p>_______</p>
+            <div class="profile-description">
+                <div>
+                    <img src="images/computer.jpg" alt="ordinateur" class="image-computer" data-aos="fade-right">
+                </div>
+                
+                <p aos="fade-left">« Après plus de 10 ans de gestion de projets en communication et marketing, j’ai décidé de me former au développement Web.  
+                Ainsi, mon expérience professionnelle dans la communication est aujourd’hui complétée par une expertise technique 
+                au service de vos projets.»</p>
+            </div> 
+        </div>
+
+
+    <div class="card-technologie" id= "technologies">
+
+            <h6>TECHNOLOGIES</h6>
+            <p>_______</p>
+
+            <div class="small-cards-techno">
+                <div class="small-card" data-aos="fade-up">
+                    <h4><i class="fas fa-laptop"></i></h4>
+                    <p>Front-end</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>Figma</li>
+                        <li>Bootstrap</li>
+                    </ul> 
+                </div>
+
+                <div class="small-card" data-aos="fade-up">
+                    <h4><i class="fas fa-laptop-code"></i></h4>
+                    <p>Back-end</p>
+                    <ul>
+                        <li>Ruby on Rails</li>
+                        <li>Model-View-Controller</li>
+                        <li>Active Record SQL</li>
+                        <li>Git</li>
+                        <li>Github</li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card-technologie" id= "competences">
+
+            <h6>COMPETENCES</h6>
+            <p>_______</p>
+
+            <div class="card-competence">
+                <div class="avatar" data-aos="fade-up">
+                    <h6><i class="fas fa-chart-line mt-2 text-success"></h6></i>Gestion de projet
+                </div>
+                <div class="avatar" data-aos="fade-up">
+                    <h6><i class="fas fa-users  mt-2 text-warning"></i></h6>Travail en équipe</li>
+                </div>
+                <div class="avatar" data-aos="fade-up">
+                    <h6><i class="fas fa-pen-nib mt-2 text-primary"></i></h6>Rigueur et précision</li>
+                </div>
+                <div class="avatar" data-aos="fade-up">
+                    <h6><i class="fas fa-microphone"></i></h6>Prise de parole en public</li>
+                </div>
+                <div class="avatar" data-aos="fade-up">
+                    <h6><img src="images/UK.png" alt="UK flag" class= "avatar-square-small"></h6>Maîtrise de l'anglais</li>
+                </div>
+                <div class="avatar" data-aos="fade-up">
+                    <h6><i class="fas fa-key text-secondary"></i></h6>Sens de la confidentialité</li>
+                </div>
+            </div>
+        
+
+
+        </div>
+
+
+        <div class="card-formation" id="formations">
+            
+            <h6>FORMATIONS</h6>
+            <p>_______</p>
+
+            <a href="https://www.lewagon.com/" target= "_blank" class="link-without-style">
+                <div class="small-card-formation" data-aos="fade-right">
+                    <div>
+                        <img src="images/le wagon.png" alt="le wagon" class= "avatar-square">
+                    </div>
+                    <div>
+                        <h6>Le Wagon</h6>
+                        <p>Formation intensive en Développement Web, Batch #437, Lille</p>
+                        <p>2020</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.neoma-bs.fr/" target= "_blank" class="link-without-style">
+                <div class="small-card-formation" data-aos="fade-right">
+                    <div>
+                        <img src="images/NEOMA.png" alt="le wagon" class= "avatar-square">
+                    </div>
+                    <div>
+                        <h6>Master - École Supérieure de Commerce de Reims</h6>
+                        <p>Groupe Reims Management School</p>
+                        <p>2005-2008</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.u-paris2.fr/fr" target= "_blank" class="link-without-style">
+                <div class="small-card-formation" data-aos="fade-right">
+                    <div>
+                        <img src="images/ASSAS.png" alt="le wagon" class= "avatar-square">
+                    </div>
+                    <div>
+                        <h6>Licence de sciences économiques</h6>
+                        <p>Université Paris II Assas</p>
+                        <p>2004-2005</p>
+                    </div>
+                </div>
+            </a>            
+
+        </div>
+
+
+        <div class="card-exp-pro" id="exp pro">
+
+            <h6>EXPERIENCES PROFESSIONNELLES</h6>
+            <p>_______</p>
+
+            <div class="small-card-pro" data-aos="fade-up">
+                <div>
+                    <a href="https://www.lycee-darchicourt.net/" class="link-without-style" target="_blank" do>
+                        <img src="images/lycee.jpg" alt="logo lycee" class= "avatar-square">
+                    </a>
+                </div>
+                <div>
+                    
+                    <h6>Professeur de Management des organisations pour 1ères et Terminales STMG</h6>
+                    <p>Lycée Fernand Darchicourt - Octobre 2019, Henin-Beaumont</p>
+                </div>
+            </div>
+
+            <div class="small-card-pro" data-aos="fade-up">
+                <div>
+                    <a href="https://www.rallyedespepites.com/" class="link-without-style" target="_blank" do>
+                        <img src="images/rallye.jpg" alt="rallye" class= "avatar-square">
+                    </a>
+                </div>
+                <div>
+                    
+                    <h6>Chef de projet</h6>
+                    <p >Vous Com’L - Rallye des Pépites</p>
+                    <p >Septembre 2017 - juin 2019 | Bordeaux </p>
+                    <br>
+                    <p ><i class="fas fa-check"></i> Relation et fidélisation clients B to C et B to B</p>
+                    <p ><i class="fas fa-check"></i> Prise en main et gestion de l’application mobile et de son évolution</p>
+                </div>
+            </div>
+
+            <div class="small-card-pro" data-aos="fade-up">
+                <div>
+                    <a href="https://www.supdepub.com/" class="link-without-style" target="_blank" do>
+                        <img src="images/supdepub.png" alt="supdepub" class= "avatar-square">
+                    </a>
+                </div>
+                <div>
+                    <h6>Tutrice de mémoire</h6>
+                    <p>École de communication Sup de Pub</p>
+                    <p>2018, Bordeaux</p>
+                </div>
+            </div>
+
+            <div class="small-card-pro" data-aos="fade-up">
+                <div>
+                    <a href="http://envol33.fr/" class="link-without-style" target="_blank" do>
+                        <img src="images/ENVOL33.png" alt="envol33" class= "avatar-square">
+                    </a>
+                </div>
+                <div>
+                    <h6>Membre du conseil d’administration</h6>
+                    <p>Envol 33 (entreprise d’insertion par l’activité économique)</p>
+                    <p>2015 - 2018, Bordeaux </p>
+                </div>
+            </div>
+
+            <div class="small-card-pro" data-aos="fade-up">
+                <div>
+                    <a href="https://www.vinexposium.com/" class="link-without-style" target="_blank" do>
+                        <img src="images/VINEXPO.png" alt="Logo Vinexpo" class= "avatar-square">
+                    </a>
+                </div>
+                <div>
+                    <h6>Chef de projet</h6>
+                    <p>Vinexpo</p>
+                    <p>Février-Juillet 2015, Bordeaux </p>
+                    <p>2015 - 2018, Bordeaux </p>
+                    <br>
+                    <p><i class="fas fa-check"></i> Organisation d’événements avec des partenaires étrangers (environ 200 invités)</p>
+                    <p><i class="fas fa-check"></i> Commercialisation et mise en place de l’espace boutiques sur le salon</p>
+                </div>
+            </div>
+
+
+            <div class="small-card-pro" data-aos="fade-up">
+                <div>
+                    <a href="https://www.lacoste.com/" class="link-without-style" target="_blank" do>
+                        <img src="images/lacoste.png" alt="Logo Lacoste" class= "avatar-square">
+                    </a>
+                </div>
+                <div>
+                    <h6>Chef de projet événementiel</h6>
+                    <p>Lacoste</p>
+                    <p>2013 - septembre 2014, Paris </p>
+                    <br>
+                    <p><i class="fas fa-check"></i> Communication interne : organisation d’événements internes pour fédérer les filiales autour la stratégie de la marque</p>
+                    <p><i class="fas fa-check"></i> Communication externe : organisation d’événements de relations publiques aux États-Unis</p>
+                    <p><i class="fas fa-check"></i> Construction et suivi du budget global pour ces événements</p>
+                    <br>
+                    <h6>Responsable des relations presse internationale</h6>
+                    <p>2011 - 2013, Paris </p>
+                    <br>
+                    <h6>Attachée de presse</h6>
+                    <p>2008 - 2011, Paris </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="card-exp-pro" id="actiextrpro">
+
+            <h6>ACTIVITES EXTRA-PROFESSIONNELLES</h6>
+            <p>_______</p>
+
+            <div class="small-card-acti" data-aos="fade-left">
+            <div>
+                <h1><i class="fas fa-theater-masks"></i></h1>
+                </div>
+                <div>
+                    <h6>Théatre</h6>
+                    <p class="small-text">Troupe amateurs</p>
+                    <p class="small-text">Depuis 2019</p>
+                </div>
+            </div>
+            
+            <div class="small-card-acti" data-aos="fade-right">
+                <div>
+                <a href="https://www.entraidescolaireamicale.org/" target="_blank" class= "link-without-style"> 
+                    <img src="images/entraide.jpg" alt="Entraide Scolaire Amicale" class="avatar-square">
+                </a>
+                </div>
+                <div>
+                    <h6>Entraide Scolaire Amicale </h6>
+                    <p class="small-text">Soutien scolaire</p>
+                    <p class="small-text">20018 - 2019</p>
+                </div>
+            </div>
+            
+            <div class="small-card-acti" data-aos="fade-left">
+                <div>
+                    <a href="https://www.facebook.com/pageambitioncampus/" target="_blank" class= "link-without-style"> 
+                        <img src="images/ambition.png" alt="Ambition Campus" class="avatar-square">
+                    </a>
+                </div>
+                <div>
+                    <h6>Ambition Campus</h6>
+                    <p class="small-text">Préparation d’élèves de Zones d’Éducation Prioritaires 
+                    <br> au concours Sciences Po Paris</p>
+                    <p class="small-text">2009 - 2011</p>
+                </div>
+            </div>
+            
+            <div class="small-card-acti" data-aos="fade-right">
+                <div>
+                <a href="https://www.restosducoeur.org/" target="_blank" class= "link-without-style"> 
+                    <img src="images/Restos.png" alt="restos du coeur" class="avatar-square">
+                </a>
+                </div>
+                <div>
+                    <h6>Restos du Coeur</h6>
+                    <p class="small-text">Bénévole</p>
+                    <p class="small-text">2008 - 2014</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-contact" id="contact" data-aos="fade-up">
+
+            <h6>CONTACT</h6>
+            <p>_______</p>
+
+            <a href="mailto:mlepers@gmail.com" target="_blank" class= "link-without-style"> 
+                <img src="images/PHOTO ML.jpg" alt="profile picture" class="avatar-profile">
+            </a>
+
+            <div class="small-card-acti">
+            <h6>MARIE LEPERS</h6>
+                <a href="mailto:mlepers@gmail.com" target="_blank" class= "link-without-style"> 
+                    <p><i class="far fa-envelope mr-3"></i>Email: mv.lepers@gmail.com</p>
+                </a>
+                <p><i class="fas fa-mobile-alt mr-3"></i>+336 69 91 22 35</p>
+            
+            </div>
+        </div>
+    
+        
+    </div>
+
+
+    <!--Animation AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+   
+  </body>
+</html>
