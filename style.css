@@ -114,6 +114,12 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
 }
 
+.card-project {
+    text-align: center;
+    color: #767c77;
+    display: flex;
+}
+
 .card-formation {
     width: 60%;
     text-align: center;
@@ -125,6 +131,18 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     align-items: center;
 }
+
+.small-cards-project {
+    margin: 30px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 450px;
+}
+
 
 .small-card-formation {
     display: flex;
@@ -252,6 +270,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 400px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+
+
+
 @media(max-width: 1080px) {
   
     .card-profile {
@@ -292,6 +313,10 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .small-card-formation {
+        width: 300px;
+    }
+
+    .small-cards-project {
         width: 300px;
     }
 
@@ -348,8 +373,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: 5px;
   }
 
+  .image-web {
+    width: 300px;
+    padding: 20px;
+  }
 
-  @media(max-width:1050px) {
+
+  @media(max-width:1130px) {
     .profile-list li {
       display: none;
     }
@@ -360,5 +390,9 @@ h1, h2, h3, h4, h5, h6 {
     
     .menu-button {
       display: inherit;
+    }
+
+    .card-project {
+        flex-direction: column;
     }
   }
